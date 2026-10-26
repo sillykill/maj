@@ -1,0 +1,70 @@
+{
+  "version": "0.2.0",
+  "initial": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    15,
+    16,
+    17,
+    19,
+    19,
+    21,
+    22,
+    27
+  ],
+  "rules": {
+    "ghost": true,
+    "sevenPairs": true,
+    "orphans": true,
+    "chow": true,
+    "chicken": true
+  },
+  "events": [
+    {
+      "type": "discard",
+      "actor": 0,
+      "tile": 27
+    },
+    {
+      "type": "draw",
+      "actor": 1
+    },
+    {
+      "type": "discard",
+      "actor": 1,
+      "tile": 28
+    },
+    {
+      "type": "draw",
+      "actor": 2
+    },
+    {
+      "type": "discard",
+      "actor": 2,
+      "tile": 29
+    },
+    {
+      "type": "draw",
+      "actor": 3
+    },
+    {
+      "type": "discard",
+      "actor": 3,
+      "tile": 30
+    },
+    {
+      "type": "draw",
+      "actor": 0,
+      "tile": 33
+    },
+    {
+      "type": "win",
+      "actor": 0,
+      "fromDiscard": false
+    }
+  ]
+}
