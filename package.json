@@ -1,0 +1,22 @@
+{
+  "name": "maj-table-guide",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.js",
+    "validate": "node scripts/validate.mjs",
+    "deploy": "npx wrangler deploy",
+    "test:e2e": "playwright test",
+    "deploy:check": "wrangler deploy --dry-run"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "wrangler": "4.153.0"
+  }
+}

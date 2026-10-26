@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "maj-table-guide",
+  "compatibility_date": "2026-10-26",
+  "assets": { "directory": "./dist" }
+}
